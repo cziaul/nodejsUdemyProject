@@ -1,5 +1,5 @@
 var person ={
-    firstname:'Zia';
+    firstname:'Zia',
     lastname:'Chowdhury',
     greet:function() {
         console.log('Hello, '+ this.firstname + ' ' +this.lastname);
@@ -7,3 +7,5 @@ var person ={
 };
 
 person.greet();
+console.log(person['firstname']);
+
