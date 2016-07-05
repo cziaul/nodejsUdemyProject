@@ -1,0 +1,11 @@
+Node system code requires 5 function expression
+1. exports
+2. require
+3. module
+4. __filename
+5. __dirname
+
+-> exports is the short hand of module.exports.
+
+
+
