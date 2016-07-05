@@ -1,0 +1,13 @@
+ES6?
+
+//Requires export
+export function greet(){
+    console.log('Hello')                        greet.js
+}
+
+//Import only thing that has export tag on it
+
+import * as greetr from 'greet';
+greetr.greet                                    app.js
+
+
