@@ -14,8 +14,28 @@ Person.prototype.greet = function(){
     console.log('Hello '+ this.firstname)
 }
 
+Person.prototype.country = function(){
+    console.log('American')
+}
+
 var john = new Person('John', 'Doe');
 john.greet();
+john.country();
+/*
+If I create more objects from Person, this will autometically get property through prototype
+
+*/
+
+var jane = new Person('Jane', 'Doe');
+jane.greet();
+jane.country();
+
+console.log(john.__proto__);
+console.log(jane.__proto__);
+console.log(john.___proto__ === jane.___proto__)
+
+
+
 
 
 
