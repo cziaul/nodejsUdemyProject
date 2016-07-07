@@ -26,3 +26,10 @@ arr.push(function(){
     console.log('Hello World 3');
 });
 
+/*  looping the arrays to get each functions
+    console.log is each item.
+*/ 
+
+arr.forEach(function(items){
+    items();
+})
