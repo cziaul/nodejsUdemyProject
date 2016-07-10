@@ -1,0 +1,30 @@
+{
+  "name": "169_npminit_nodemon_packjson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cziaul/nodejsUdemyProject.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Ziaul Chowdhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cziaul/nodejsUdemyProject/issues"
+  },
+  "homepage": "https://github.com/cziaul/nodejsUdemyProject#readme",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "moment": "^2.14.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
